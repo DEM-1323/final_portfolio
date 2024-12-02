@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+      }
+      .header,
+      .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10%;
+        border: solid 1px white;
+        background-color: #b6ffbb;
+        color: #bbb6ff;
+      }
+      .header {
+        justify-content: space-between;
+      }
+      .header h1 {
+        margin-right: auto;
+      }
+      .nav {
+        margin-right: 1rem;
+      }
+      .page-body {
+        height: 80%;
+        border: solid 1px red;
+        background-color: #1e2a1f;
+        color: #b6ffbb;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>David's Web Portfolio</h1>
+      <div class="nav">
+        <a href="#">Projects</a>
+      </div>
+    </div>
+    <div class="page-body">
+      <h2>Welcome to my Web Portfolio Site</h2>
+      <h3>About Me:</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        placeat aliquam ratione inventore voluptatem hic quos qui modi velit
+        laborum? Deleniti possimus neque sint? Laboriosam mollitia libero cum
+        officia id.
+      </p>
+    </div>
+    <div class="footer">
+      <p>
+        Connect With Me:
+        <a href="https://www.instagram.com">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"
+            width="20px"
+          />
+        </a>
+        <a href="https://www.linkedin.com">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+            width="20px"
+          />
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
